@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "247416574746",
+    "project_id": "onlineszinhazjegyvasarlas",
+    "storage_bucket": "onlineszinhazjegyvasarlas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247416574746:android:6a9883aa1d717943f912a3",
+        "android_client_info": {
+          "package_name": "com.example.onlineszinhazjegyvasarlas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT9NBpcw9nIF-6EFrLmNiJ1C7Xl_B_d1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

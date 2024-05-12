@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        tools:ignore="MissingConstraints" />
+
+    <TableLayout
+        android:id="@+id/TableLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TableRow android:layout_marginBottom="5dip" android:layout_marginStart="5dp" android:layout_marginEnd="5dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/user_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Üdvözöllek a Színházjegy Vásárlás oldalán" />
+            </LinearLayout>
+        </TableRow>
+        <TableRow android:layout_marginBottom="5dip" android:layout_marginStart="5dp" android:layout_marginEnd="5dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/menuk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Mik találhatók az appban?" />
+            </LinearLayout>
+        </TableRow>
+        <TableRow android:layout_marginBottom="5dip" android:layout_marginStart="5dp" android:layout_marginEnd="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/musoron"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A műsorunk megtekéntéséhez kattints a Műsoron menüpontra" />
+            </LinearLayout>
+        </TableRow>
+        <TableRow android:layout_marginBottom="5dip" android:layout_marginStart="5dp" android:layout_marginEnd="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/foglalas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jegy foglaláshoz kattints a Foglalás menüpontra" />
+            </LinearLayout>
+        </TableRow>
+        <TableRow android:layout_marginBottom="5dip" android:layout_marginStart="5dp" android:layout_marginEnd="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A már foglalt jegyeid megtekintéséhez kattints a Profil mennüpontra" />
+            </LinearLayout>
+        </TableRow>
+        <TableRow android:layout_marginBottom="5dip" android:layout_marginStart="5dp" android:layout_marginEnd="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/loggggoit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ha kiszeretnél jelentkezni kattints a Kijelentkezés menüpontra" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+
+
+</LinearLayout>

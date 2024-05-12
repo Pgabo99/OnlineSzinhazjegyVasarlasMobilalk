@@ -1,0 +1,184 @@
+<resources>
+    <string name="app_name">Online Szinházjegy Vásárlás</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="email">Email</string>
+    <string name="password">Jelszó</string>
+    <string name="registration">Regisztráció</string>
+    <string name="loginClick">Kattints a bejelentkezéshez</string>
+    <string name="RegisterClick">Kattints a regisztrációhoz</string>
+    <string name="logout">Kijelentkezés</string>
+    <string name="item_placeholder">Leírás</string>
+    <string name="item_info_placeholder">Infó a színdarabról</string>
+    <string name="view_play">Részletek(hamarosan)</string>
+    <string name="title_placeholder">Név</string>
+    <string name="search">Keresés</string>
+    <string name="settings">Beállítások</string>
+    <string name="profile">Profil</string>
+    <string name="views">Műsoron</string>
+    <string name="main">Főoldal</string>
+    <string name="book">Foglalás</string>
+    <string name="seats">Hány fő</string>
+    <string name="phonenumber">Telefonszám</string>
+    <string name="nameof">Foglaló neve</string>
+    <string name="playname">Előadás neve</string>
+    <string name="playdate">Előadás időpontja</string>
+    <string name="db">Jegyszám</string>
+    <string name="delete">Törlés</string>
+    <string name="update">Módosítás</string>
+
+    <string-array name="play_names">
+        <item>A Pál utcai fiúk</item>
+        <item>Diótörő</item>
+        <item>RÓMEÓ ÉS JÚLIA</item>
+        <item>Macskafogó</item>
+        <item>Nyakamon a nászmenet</item>
+        <item>A Játékkészítő</item>
+        <item>Pretty Woman</item>
+        <item>Kabaré</item>
+        <item>W. Shakespeare: Vízkereszt, vagy amit akartok</item>
+        <item>Made in Hungária</item>
+    </string-array>
+
+    <string-array name="play_desc">
+        <item>A magyar irodalom egyik legszívbemarkolóbb alkotása felnőtteket, fiatalokat egyaránt megérint. Közös gondolkodásunk és közbeszédünk része lett a grund, amely a miénk, ahogy azt Dés-Geszti csupa érzelem, csupa dallam betétdalában éneklik a szereplők.</item>
+        <item>December eljövetele nemcsak a tartós hideg beköszöntét jelenti, hanem az ünnepi fényekbe öltöztetett utcákat, a karácsonyi vásárok forgatagát és a friss sült gesztenye illatát is. Elkezdődik a karácsonyi készülődés, melynek egyik elengedhetetlen eleme a Diótörő.</item>
+        <item>musical</item>
+        <item>M. M. u. 80-ban az X bolygón az egértársadalom élete veszélyben forog. Az Intermouse rég visszavonult adu-ásza, Nick Grabowski az egerek egyetlen esélye: rá hárul a feladat, hogy Pokióból elhozza Fushimishi professzor legújabb találmányát... hogy a Macskafogó életre kel-e, az kiderül a József Attila Színház előadásából.</item>
+        <item>Fadinard esküvőre készül, de a lova megeszi egy katona szeretőjének szalmakalapját. Hogy a tomboló katona ne verje szét a lakását és a lagziját, Fadinard kénytelen beszerezni egy ugyanolyan kalapot, miközben menyasszonyt, apóst, násznépet kell percenként leszerelnie. Kortalan francia csúcsbohózat.</item>
+        <item>Tavaly több, mint 45 ezren látták, idén pedig Magyarországon utolsó alkalommal mutatják be a számos meglepetéssel, még látványosabban visszatérő családi pop-show-musicalt.</item>
+        <item>Minden idők egyik legkedveltebb romantikus története, az ikonikus film sikeréhez méltó, musicalként születik újjá a Madách Színház színpadán.</item>
+        <item>musical két részben</item>
+        <item>A Vízkereszt viharos tengerrel, hajótöréssel, gyásszal kezdődik, és három házassággal ér véget. A kettő között viharos szerelmek ütköznek, egy részük csaknem hajótöréssel végződik.</item>
+        <item>Tartson velünk egy igazi házibuliba!</item>
+    </string-array>
+
+    <array name="play_rates">
+        <item>5</item>
+        <item>3.2</item>
+        <item>3.6</item>
+        <item>4.3</item>
+        <item>2.8</item>
+        <item>4.9</item>
+        <item>4.5</item>
+        <item>4.1</item>
+        <item>3.7</item>
+        <item>4</item>
+    </array>
+
+    <array name="play_images">
+        <item>@drawable/apalutcaifiuk</item>
+        <item>@drawable/diotoro</item>
+        <item>@drawable/romeoesjuliamusical</item>
+        <item>@drawable/macskafogo</item>
+        <item>@drawable/nyakamonanaszmenet</item>
+        <item>@drawable/ajatekkeszito</item>
+        <item>@drawable/prettywomanmicsoda</item>
+        <item>@drawable/kabare</item>
+        <item>@drawable/wshakespearevizkeresztvagyamitakartok</item>
+        <item>@drawable/madeinhungaria</item>
+    </array>
+
+    <array name="play_price">
+        <item>5000 Ft</item>
+        <item>3000 Ft</item>
+        <item>2900 Ft</item>
+        <item>2800 Ft</item>
+        <item>3500 Ft</item>
+        <item>4500 Ft</item>
+        <item>2500 Ft</item>
+        <item>2000 Ft</item>
+        <item>1700 Ft</item>
+        <item>2000 Ft</item>
+    </array>
+
+    <array name="palutcai">
+        <item>2024.05.13 18:00</item>
+        <item>2024.05.13 22:00</item>
+        <item>2024.05.14 18:00</item>
+        <item>2024.05.15 10:00</item>
+        <item>2024.05.20 20:00</item>
+        <item>2024.05.31 21:00</item>
+    </array>
+
+    <array name="diotoro">
+        <item>2024.06.11 18:00</item>
+        <item>2024.06.13 16:00</item>
+        <item>2024.06.14 16:00</item>
+        <item>2024.06.15 16:00</item>
+        <item>2024.06.20 20:00</item>
+        <item>2024.07.31 21:00</item>
+    </array>
+
+    <array name="nyakamon">
+        <item>2024.05.22 18:00</item>
+        <item>2024.05.23 8:00</item>
+        <item>2024.05.23 12:00</item>
+        <item>2024.06.23 22:00</item>
+        <item>2024.06.25 20:00</item>
+        <item>2024.07.06 16:00</item>
+    </array>
+
+    <array name="romeoesjulai">
+        <item>2024.08.01 18:00</item>
+        <item>2024.08.02 18:00</item>
+        <item>2024.08.03 18:00</item>
+        <item>2024.08.04 18:00</item>
+        <item>2024.08.05 18:00</item>
+        <item>2024.08.06 18:00</item>
+    </array>
+
+    <array name="macskafogo">
+        <item>2024.09.01 16:00</item>
+        <item>2024.09.08 16:00</item>
+        <item>2024.09.15 16:00</item>
+        <item>2024.09.22 16:00</item>
+        <item>2024.09.29 16:00</item>
+        <item>2024.09.29 20:00</item>
+    </array>
+
+    <array name="jatekkeszito">
+        <item>2024.07.01 18:00</item>
+        <item>2024.07.04 22:00</item>
+        <item>2024.07.07 18:00</item>
+        <item>2024.07.10 22:00</item>
+        <item>2024.07.13 16:00</item>
+        <item>2024.07.16 20:00</item>
+    </array>
+
+    <array name="kabare">
+        <item>2024.10.12 18:00</item>
+        <item>2024.10.12 22:00</item>
+        <item>2024.10.14 18:00</item>
+        <item>2024.10.14 22:00</item>
+        <item>2024.10.22 16:00</item>
+        <item>2024.10.22 20:00</item>
+    </array>
+
+    <array name="vizkereszt">
+        <item>2025.01.06 08:00</item>
+        <item>2025.01.06 12:00</item>
+        <item>2025.01.06 16:00</item>
+        <item>2025.01.06 20:00</item>
+        <item>2025.01.07 16:00</item>
+        <item>2025.01.06 20:00</item>
+    </array>
+
+    <array name="prettywoman">
+        <item>2024.06.30 10:00</item>
+        <item>2024.06.30 16:00</item>
+        <item>2024.07.02 10:00</item>
+        <item>2024.07.02 16:00</item>
+        <item>2024.07.05 10:00</item>
+        <item>2024.07.05 16:00</item>
+    </array>
+
+    <array name="madeinhungaria">
+        <item>2024.11.12 18:00</item>
+        <item>2024.11.12 22:00</item>
+        <item>2024.11.14 18:00</item>
+        <item>2024.11.14 22:00</item>
+        <item>2024.11.22 16:00</item>
+        <item>2024.11.22 20:00</item>
+    </array>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/main"
+        android:title="@string/main"
+        />
+    <item
+        android:id="@+id/onscreen"
+        android:title="@string/views"
+        />
+    <item
+        android:id="@+id/book"
+        android:title="@string/book"
+        />
+    <item
+        android:id="@+id/profile"
+        android:title="@string/profile"
+        />
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"
+        />
+</menu>
